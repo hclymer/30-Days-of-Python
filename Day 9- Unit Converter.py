@@ -27,3 +27,27 @@ print()
 from_value = float(input(f"Enter {from_unit} -->"))
 
 print()
+
+if conversion_number == 1:
+    to_value = from_value * 0.62
+    print(f'{from_value} {from_unit} -> {to_value} {to_unit}')
+
+if conversion_number == 2:
+    to_value = from_value * 1.61
+    print(f'{from_value} {from_unit} -> {to_value} {to_unit}')   
+    
+if conversion_number == 3:
+    to_value = from_value * 0.45
+    print(f'{from_value} {from_unit} -> {to_value} {to_unit}')    
+    
+if conversion_number == 4:
+    to_value = from_value * 2.22
+    print(f'{from_value} {from_unit} -> {to_value} {to_unit}')    
+    
+if conversion_number == 5:
+    to_value = (from_value - 32) /1.8
+    print(f'{from_value} {from_unit} -> {to_value} {to_unit}')
+    
+if conversion_number == 6:
+    to_value = from_value * 1.8 + 32
+    print(f'{from_value} {from_unit} -> {to_value} {to_unit}')
